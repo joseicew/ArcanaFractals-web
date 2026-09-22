@@ -92,7 +92,7 @@ body {
 		</style>
 		<link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
 <link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
-
+<script>/* Quien entra desde Android: el boton para bajarse el APK, que se juega mejor que en el navegador. */addEventListener('DOMContentLoaded',function(){if(!/Android/i.test(navigator.userAgent))return;try{if(localStorage.getItem('arcana-sin-apk'))return}catch(e){}var c=document.createElement('div');c.style.cssText='position:fixed;top:8px;right:8px;z-index:10;display:flex;gap:4px;align-items:center;font:600 13px sans-serif';var a=document.createElement('a');a.href='https://github.com/joseicew/ArcanaFractals-web/releases/download/android/ArcanaFractals.apk';a.textContent='Descargar para Android';a.style.cssText='padding:10px 14px;border-radius:999px;background:#b98bff;color:#0e0b1a;text-decoration:none';var x=document.createElement('button');x.textContent='✕';x.setAttribute('aria-label','Cerrar');x.style.cssText='width:36px;height:36px;border-radius:999px;border:1px solid #3a2f6b;background:#1e1740;color:#ece7ff;font-size:14px';x.onclick=function(){c.remove();try{localStorage.setItem('arcana-sin-apk','1')}catch(e){}};c.appendChild(a);c.appendChild(x);document.body.appendChild(c)});</script>
 	</head>
 	<body>
 		<canvas id="canvas">
@@ -111,7 +111,7 @@ body {
 
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":45788344,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":45788360,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
