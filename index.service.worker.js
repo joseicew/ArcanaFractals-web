@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1795370698|5353510';
+const CACHE_VERSION = '1795422467|5143540';
 /** @type {string} */
 const CACHE_PREFIX = 'Arcana Fractals-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
